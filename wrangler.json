@@ -27,5 +27,11 @@
     "GOOGLE_TAG_CA4": "G-7ZYL6LDX5Q\n",
     "TARGET_COUNTRY": "NOR",
     "TARGET_WEBSITE": "https://regnrbil.no"
-  }
+  },
+  "analytics_engine_datasets": [
+    {
+      "binding": "MARKETING_EVENTS_NO",
+      "dataset": "cardataone_marketing_events_no"
+    }
+  ]
 }
