@@ -1,15 +1,29 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "vite-react-template",
-	"main": "./src/worker/index.ts",
-	"compatibility_date": "2025-10-08",
-	"compatibility_flags": ["nodejs_compat"],
-	"observability": {
-		"enabled": true
-	},
-	"upload_source_maps": true,
-	"assets": {
-		"directory": "./dist/client",
-		"not_found_handling": "single-page-application"
-	}
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vite-react-template",
+  "main": "./src/worker/index.ts",
+  "compatibility_date": "2025-10-08",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "assets": {
+    "directory": "./dist/client",
+    "not_found_handling": "single-page-application"
+  },
+  "vars": {
+    "APP_COUNTRY": "NO",
+    "APP_ENVIRONMENT": "production",
+    "APP_LOCALE": "nb-NO",
+    "APP_MODE": "read_only",
+    "APP_NAME": "CarDataOne Marketing Agent",
+    "APP_TIMEZONE": "Europe/Oslo",
+    "CLOUDFLARE_ACCOUNT_ID": "12b6c3c4b39a3ced0a5abcc443f3aaed",
+    "GOOGLE_SEARCH_CONSOLE_SITE_URL": "sc-domain:regnrbil.no",
+    "TARGET_COUNTRY": "NOR",
+    "TARGET_WEBSITE": "https://regnrbil.no"
+  }
 }
